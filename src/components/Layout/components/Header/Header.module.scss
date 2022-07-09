@@ -51,7 +51,7 @@
         font-size: 1.4rem;
         font-weight: 600;
         color: var(--white);
-        font-family: 'ProximaNova', sans-serif;
+        font-family: var(--font-family);
         background-color: var(--primary);
     }
 }
@@ -62,4 +62,8 @@
     border-radius: 50%;
     margin-left: 24px;
     cursor: pointer;
+}
+
+.logo-link {
+    display: flex;
 }
